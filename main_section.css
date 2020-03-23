@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+   
+    font-family: 'Baloo 2', cursive;
+}
+
+.main-section{
+
+    min-width: 1000px;
+    max-width: 1200px;
+    display: flex;
+    background: url('assets/dadjokes.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-color: #3D1867; 
+    color:#E58A5C;
+    margin: 0 auto;  
+}
+
+.main-image{
+    display: flex;
+    justify-content: center;
+    padding: 80px 60px;
+    align-items: center;      
+    flex: 1;
+}
+
+.main-text{     
+    display: flex;   
+    flex-direction: column;     
+    padding: 80px 60px; 
+    line-height: 2em;
+    justify-content: center;
+    align-items: flex-end;    
+    text-align: end;
+    flex: 1;
+}
+
+h2{   
+    margin: 10px 0px;
+} 
+
+.link{  
+    color: #000;
+    background-color: #E58A5C;
+    border-radius: 5%;
+    margin: 10px 0px;
+    padding: 20px 40px;
+    
+}
+
+p{        
+    margin: 10px 0px;
+} 
+
+
+a{
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+}

@@ -24,7 +24,7 @@
     
     Else{
 
-        Write-Host -NoNewline -BackgroundColor Green -ForegroundColor Black "The operation to shut down $processname failed, press Enter to continue."
+        Write-Host -NoNewline -BackgroundColor Red -ForegroundColor Black "The operation to shut down $processname failed, press Enter to continue."
         
     }
 }

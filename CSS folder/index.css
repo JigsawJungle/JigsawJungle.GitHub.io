@@ -7,6 +7,11 @@
     list-style: none;
 }
 
+@font-face{
+  src: url(../fonts/GrandHotel-Regular/GrandHotel-Regula.ttf);
+  font-family: grand-regular;
+}
+
 html, body {
     height: 100%;
 }
@@ -50,6 +55,7 @@ height: 100%;
     padding: 5px 5px;
     color: #ddc966;
     font-size: 17pt;
+    font-family: grand-regular;
     padding: 0.5em 1em; 
 }
 .navlinks-container a:hover{
@@ -58,11 +64,43 @@ height: 100%;
 }
 
 .mainsection-container{
-    display: block;
-	width: calc(40em - 20px);
-	margin: 0 auto;
-	height: 20em;
-	position: absolute;
-	top: calc(20rem - 10%);
-	left: calc(50% - (calc(40em - 20px))/2);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #0c2628;
+
+    padding: 2em 2em
+}
+
+.title-container {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-family: grand-regular;
+    font-size: 60px;
+    line-height: 1em;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 5;
+    font-family: grand-regular;
+    line-height: 50px;
+    
+}
+
+footer{
+background-color: #0c2628;
+color:#829997;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: grand-regular;
+    font-size: 20px;
 }

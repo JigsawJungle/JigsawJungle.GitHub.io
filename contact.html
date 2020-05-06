@@ -19,6 +19,46 @@
         </div>
     </nav>
     <section class="mainsection-container">
+        <div class="contact-form">
+            <h2>Let's stay in touch, send me a message:</h2>
+            <form action="" onsubmit="window.alert('Thank you for contacting me, I will reply between 1-2 days.')">
+                <label for="name-input">Name:</label>
+                <input type="text" name="name-input">
+                <label for="phone-num">Telephone number:</label>
+                <input type="tel" name="phone-num">
+                <label for="email-add">E-mail address:</label>
+                <input type="email" name="email-add">
+                <label class="radioButton">Please select your preferred contact option</label>
+                <div class="radio-selection">
+                    <div>
+                    <input type="radio" id="email-select" name="emailSel" value="email">
+                    <label for="email-select">E-mail</label><br>
+                    </div>
+                    <div>
+                    <input type="radio" id="tel-select" name="telSel" value="telephone">
+                    <label for="tel-select">Telephone</label><br>
+                    </div>
+                </div>
+
+                <select id="province" name="province">
+                    <option value="">Which province/territory are you from</option>
+                    <option value="alberta">Alberta</option>
+                    <option value="britishcolombia">British Colombia</option>
+                    <option value="manitoba">Manitoba</option>
+                    <option value="newbrunswick">New Brunswick</option>
+                    <option value="newfoundlabrador">Newfoundland & Labrador</option>
+                    <option value="northwest">Northwest Territories</option>
+                    <option value="nova">Nova Scotia</option>
+                    <option value="nunavut">Nunavut</option>
+                    <option value="ontario">Ontario</option>
+                    <option value="prince">Prince Edward Island</option>
+                    <option value="quebec">Quebec</option>
+                    <option value="saskatchewan">Saskatchewan</option>
+                    <option value="yukon">Yukon</option>
+                </select>
+                <button>Submit</button>
+            </form>
+        </div>
     </section>
 
 </body>

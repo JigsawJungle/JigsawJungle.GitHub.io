@@ -9,7 +9,7 @@
 </head>
 <body>
    
-    <div class="maincontainer">
+<div class="maincontainer">
     <nav class="navbar-container">           
         <div class="navlinks-container">
             <a href="#">Home</a>    
@@ -22,13 +22,20 @@
         <div class="contact-form">
             <h2>Let's stay in touch, send me a message:</h2>
             <form action="" onsubmit="window.alert('Thank you for contacting me, I will reply between 1-2 days.')">
+                <div>
                 <label for="name-input">Name:</label>
                 <input type="text" name="name-input">
+                </div>
+                <div>
                 <label for="phone-num">Telephone number:</label>
                 <input type="tel" name="phone-num">
+                </div>
+                <div>
                 <label for="email-add">E-mail address:</label>
                 <input type="email" name="email-add">
-                <label class="radioButton">Please select your preferred contact option</label>
+                </div>
+               
+                <label class="radioButton">Please select your preferred contact option:</label>
                 <div class="radio-selection">
                     <div>
                     <input type="radio" id="email-select" name="emailSel" value="email">
@@ -41,7 +48,7 @@
                 </div>
 
                 <select id="province" name="province">
-                    <option value="">Which province/territory are you from</option>
+                    <option value="">Which province/territory are you from?</option>
                     <option value="alberta">Alberta</option>
                     <option value="britishcolombia">British Colombia</option>
                     <option value="manitoba">Manitoba</option>
@@ -56,6 +63,11 @@
                     <option value="saskatchewan">Saskatchewan</option>
                     <option value="yukon">Yukon</option>
                 </select>
+                <div>
+                    <label for="messagebox" maxlength="200">Type your message here:</label><br>
+                    <textarea name="messagebox"></textarea>
+                </div>
+                
                 <button>Submit</button>
             </form>
         </div>
@@ -63,6 +75,6 @@
 
 </body>
 <footer>
-    <div class="footer-container">Copyight Lauren Filiatreault, May 2020</div>
+    <div class="footer-container">Copyright Lauren Filiatreault, May 2020</div>
 </footer>
 </html>

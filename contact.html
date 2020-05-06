@@ -25,31 +25,25 @@
                 <div>
                 <label for="name-input">Name:</label>
                 <br>
-                <input type="text" name="name-input">
+                <input type="text" name="name-input"  placeholder="Type your full name here...">
                 </div>
                 <div>
-                <label for="phone-num">Telephone number:</label>
+                <label for="phone-num" >Telephone number:</label>
                 <br>
-                <input type="tel" name="phone-num">
+                <input type="tel" name="phone-num" placeholder="Type your phone number here...">
                 </div>
                 <div>
                 <label for="email-add">E-mail address:</label>
                 <br>
-                <input type="email" name="email-add">
+                <input type="email" name="email-add"  placeholder="Type your e-mail address here...">
                 </div>
-               
-                <label class="radioButton">Please select your preferred contact option:</label>
                 <div class="radio-selection">
-                    <div>
-                    <input type="radio" id="email-select" name="emailSel" value="email">
-                    <label for="email-select">E-mail</label><br>
-                    </div>
-                    <div>
+                <label class="radioButton">Please select your preferred contact option:</label>           
+                    <input type="radio" id="email-select" name="emailSel" value="email" >
+                    <label for="email-select">E-mail</label>                    
                     <input type="radio" id="tel-select" name="telSel" value="telephone">
-                    <label for="tel-select">Telephone</label><br>
-                    </div>
+                    <label for="tel-select">Telephone</label>             
                 </div>
-
                 <select id="province" name="province">
                     <option value="">Which province/territory are you from?</option>
                     <option value="alberta">Alberta</option>
@@ -68,16 +62,18 @@
                 </select>
                 <div>
                     <label for="messagebox" maxlength="200">Type your message here:</label><br>
-                    <textarea name="messagebox"></textarea>
+                    <textarea name="messagebox"  placeholder="Type your message here..."></textarea>
+                </div>
+                <div class="buttonposition">
+                    <button>Submit</button>
                 </div>
                 
-                <button>Submit</button>
             </form>
         </div>
     </section>
 
 </body>
 <footer>
-    <div class="footer-container">Copyright Lauren Filiatreault, May 2020</div>
-</footer>
+    <p>This page was designed by Lauren Filiatreault, copyright 2020. Updated April 2020.</p>
+</footer>	
 </html>

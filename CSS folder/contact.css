@@ -20,8 +20,7 @@ body{
 
 .maincontainer{
     background-color: #0c2628;
-    color:#829997;
-    height: 100%;
+    color:#829997;    
     width: 100%;
    
 }
@@ -71,6 +70,7 @@ body{
     margin-left: 60px;
     margin-right: 60px;
     padding: 1em 1em;
+    
 }
 
 .title-container {
@@ -93,45 +93,57 @@ h1{
     justify-content: center;
     flex-direction: column;
     max-width: 750px;
-    flex-wrap: wrap;
     flex: 1;
 }
 
 
 form{
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
     flex-direction: column;
-    flex: 3;
+    justify-content: center;
+   
+    border: none;
+    border-radius: 6px;    
+    width:100%;
+    flex: 1;
+ 
     font-family: 'Noto Sans JP', sans-serif;
-    color: gray;
+    font-size: 17px;
     
 }
 
 input, select, textarea{
     border-radius: 6px;
-    border: 1px solid  rgba(206, 206, 206, 0.95);
-    background-color: rgba(255,255,255,0.95);
-    /* padding: 0.25em 10em; */
-    align-items: center;
-    justify-content: center;
+    line-height: 22px;
+    font-family: inherit;
+    font-size: 14px;    
+    margin: 0.25em 0em 0.25em 1em;
+    padding: 0.5em 0.5em;  
+    flex: 3;    
     color:#283130;
-    /* margin: 5px 1px; */
+    width: 97%;
     
-    flex: 4;
 }
+
 .radio-selection{
-    display: grid;
-    grid-template-rows: 1px;
-    grid-gap: 1.5em;
-    margin-left: 2em; 
+    display: flex;
+    
+    justify-content: space-between;
+    align-content: baseline;
+    margin: 0.35em 0.5em 0.35em 0em;
+}
+
+.buttonposition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button{
+
     padding: 10px 20px;
     margin: 8px 0;
-    max-width: 200px;
+    max-width: 100px;
     border: none;
     border-radius: 6px;
     background-color: #ddc966;    
@@ -150,4 +162,5 @@ footer{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 15px;
 }
+
 

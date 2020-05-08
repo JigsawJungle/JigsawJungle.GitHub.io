@@ -82,7 +82,7 @@ h1{
     margin-bottom: 10px;
 }
 
-.grid-container{
+/* .grid-container{
     display: grid;
     grid-template-areas: 
     "img1 img1 img2 img2"
@@ -108,7 +108,7 @@ h1{
  
  .img4 {
     grid-area: img4;
- }
+ } */
 
 
 footer{

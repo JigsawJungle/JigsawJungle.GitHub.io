@@ -7,9 +7,6 @@
     list-style: none;
 }
 
-html, body {
-    height: 100%;
-}
 
 body{
     display: flex;
@@ -21,7 +18,7 @@ body{
 .maincontainer{
     background-color: #0c2628;
     color:#829997;    
-    width: 100%;
+    
    
 }
 
@@ -62,13 +59,12 @@ body{
 
 
 .mainsection-container{  
-    display: flex;
+    display: grid;
     justify-content: center;
     align-content: center;
     background-color: rgba(130,160, 200, 0.1); 
-    margin-top: 10px;
-    
-    padding: 1em 1em;
+    margin-top: 10px;  
+    height: 100%;
     
 }
 
@@ -85,6 +81,34 @@ h1{
     line-height: 30px;
     margin-bottom: 10px;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "img1 img1 img2 img2"
+    "img1 img1 img2 img2"
+    "img3 img3 img4 img4"
+    "img3 img3 img4 img4"
+    ;
+
+    grid-gap: 1em;
+}
+
+.img1 {
+    grid-area: img1;
+ }
+ 
+ .img2 {
+    grid-area: img2;
+ }
+ 
+ .img3 {
+    grid-area: img3;
+ }
+ 
+ .img4 {
+    grid-area: img4;
+ }
 
 
 footer{

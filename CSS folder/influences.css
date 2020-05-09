@@ -86,121 +86,66 @@ h1{
 }
 
 img{
+    display: block;
     max-width: 100%;
 }
 
 p{
-    font-size: 23px;
+    font-size: 25px;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: lighter;
     color: #fff;
     padding: 0.5em;
     margin: 1em 1em;
+    background-color: rgba(256,256, 256, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    max-width: 100%;
 }
 
 
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat (20, 5vw);
-    grid-gap: 15px; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 1.1rem 0.5rem;
+    width: 100%
     
 }
+ 
 
-
-.textpart1{
-    display: grid;
-    grid-column: 6/8;
-    grid-row: 3;
-    background-color: rgba(256,256, 256, 0.1);
-    border-radius: 5px;
-   
-}
-
-.ai{
-    display: grid;
-    text-align: center;
-    align-items: center;
-    background-color: rgba(256,256, 256, 0.1);
-    border-radius: 5px;
-    max-width: 100%;
-
-}
 
 .img1 {
-  
-    grid-column: 2/ span 5;
-    grid-row: 2/ span 4;
-    margin-left: 10px;
- }
- .textpart2{
-    display: grid;
-    grid-column: 3/5;
-    grid-row: 7;
-    background-color: rgba(256,256, 256, 0.1);
-    border-radius: 5px;
-}
-.ai2{
-    display: grid;
-    text-align: center;
-    align-items: center;
-    background-color: rgba(256,256, 256, 0.1);
-    border-radius: 5px;
-    max-width: 100%;
+    
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 10px 10px;
+   
 }
  
   .img2 {
-    grid-column: 5 / span 4; 
-    grid-row: 6 / span 4;
-    margin-right: 10px;
+  
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 10px 10px;
+   
  }
-
- .textpart3{
-    display: grid;
-    grid-column: 6/8;
-    grid-row: 11;
-    background-color: rgba(256,256, 256, 0.1);
-    border-radius: 5px; 
-    
-}
-.CGI{
-    display: grid;
-    text-align: center;
-    align-items: center;
-    background-color: rgba(256,256, 256, 0.1);
-    border-radius: 5px;
-    max-width: 100%;
-}
- 
  .img3 {
-    grid-column: 2 / span 4;
-    grid-row: 10 / span 3;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 10px 10px;
   
  }
  
- .textpart4{
-    display: grid;
-    grid-column: 2/5;
-    grid-row: 16;
-    background-color: rgba(256,256, 256, 0.1);
-    border-radius: 5px; 
-    
-}
-.VG{
-    display: grid;
-    text-align: center;
-    align-items: center;
-    background-color: rgba(256,256, 256, 0.1);
-    border-radius: 5px;
-    max-width: 100%;
-    
-}
 
  .img4 {
-    grid-column: 5 / span 4;
-    grid-row: 15 / span 3;
    
- } 
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin: 10px 10px;
+   
+}   
 
 
 footer{
